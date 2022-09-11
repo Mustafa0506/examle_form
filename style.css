@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+input,
+textarea {
+    outline: none;
+}
+
+input:active,
+textarea:active {
+    outline: none;
+}
+
+:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.valid {
+    border: 2px solid #58f358;
+}
+.invalid {
+    border: 2px solid #882626;
+}
+
+.block { 
+    width: 1400px;
+    height: 763px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-up-text { 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #4200FF;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.main-down-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #595959;
+    user-select: none;
+    cursor: pointer;
+}
+
+.main-input {
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #949494;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #949494;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #000;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 240px;
+    height: 50px;
+    margin-top: 30px;
+    background: #4200FF;
+    border: 2px solid #4200FF;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.top-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer
+}
+
+.bottom-text { 
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.bottom-text h1 { 
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #1A1A1A;
+}
+
+.bottom-text p { 
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #1A1A1A;
+}
+
+.top {
+    text-align: center;
+}
+
+a {
+    font-weight: 600;
+}
